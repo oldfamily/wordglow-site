@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wordglow</title>
+<meta name="description" content="Wordglow — vocabulary test prep for grades 6-12. Free, offline, and private by design.">
+<style>
+  :root {
+    color-scheme: light dark;
+    --ink:#1c2030; --muted:#5a6072; --bg:#ffffff; --accent:#6366f1;
+    --card:#f6f7fb; --line:#e6e8f0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#eef1fb; --muted:#98a2c3; --bg:#0e1220; --accent:#a5b4fc;
+            --card:#161c30; --line:rgba(255,255,255,.14); }
+  }
+  body { margin:0; background:var(--bg); color:var(--ink);
+    font:17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:42rem; margin:0 auto; padding:4rem 1.25rem 5rem; }
+  h1 { font-size:2.4rem; line-height:1.1; margin:0 0 .5rem; letter-spacing:-.02em; }
+  h2 { font-size:1.15rem; margin:2.5rem 0 .5rem; }
+  .lede { color:var(--muted); font-size:1.12rem; margin:0; }
+  ul { padding-left:1.15rem; }
+  li { margin:.45rem 0; }
+  .links { display:flex; flex-wrap:wrap; gap:.75rem; margin:2.5rem 0 0; }
+  .links a {
+    display:inline-block; padding:.6rem 1.1rem; border-radius:10px;
+    border:1px solid var(--line); background:var(--card);
+    color:var(--accent); text-decoration:none; font-weight:600; font-size:.95rem;
+  }
+  .links a:hover { border-color:var(--accent); }
+  footer { margin-top:3.5rem; padding-top:1.5rem; border-top:1px solid var(--line);
+    color:var(--muted); font-size:.9rem; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Wordglow</h1>
+  <p class="lede">Vocabulary test prep for grades 6&ndash;12. Free, offline, and
+  private by design.</p>
+
+  <h2>What it does</h2>
+  <p>Wordglow teaches the vocabulary that shows up on the SAT, ACT, PSAT, ISEE,
+  SSAT, SHSAT, and state assessments &mdash; using spaced repetition, so each word
+  comes back right before it would be forgotten. Sessions are short, kids can
+  stop at any time and keep what they earned, and a PIN-protected parent area
+  shows how it's going.</p>
+
+  <h2>Private by design</h2>
+  <ul>
+    <li>No accounts, no sign-in, no ads, no tracking</li>
+    <li>No network requests &mdash; the app works entirely offline</li>
+    <li>All progress stays on the device, and parents can export a copy any time</li>
+  </ul>
+
+  <div class="links">
+    <a href="./support.html">Support &amp; FAQ</a>
+    <a href="./privacy-policy.html">Privacy policy</a>
+    <a href="mailto:oldfamily@gmail.com">Email the developer</a>
+  </div>
+
+  <footer>Wordglow is made by Gary Leung, an independent developer.</footer>
+</main>
+</body>
+</html>

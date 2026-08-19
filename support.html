@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wordglow Support</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --ink: #1c2030; --muted: #5a6072; --bg: #ffffff; --accent: #6366f1;
+    --card: #f6f7fb; --line: #e6e8f0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink: #eef1fb; --muted: #98a2c3; --bg: #0e1220; --accent: #a5b4fc;
+            --card: #161c30; --line: rgba(255,255,255,.14); }
+  }
+  body { margin:0; background:var(--bg); color:var(--ink);
+    font:17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:42rem; margin:0 auto; padding:3rem 1.25rem 5rem; }
+  h1 { font-size:1.9rem; line-height:1.2; margin:0 0 .5rem; }
+  h2 { font-size:1.15rem; margin:2rem 0 .4rem; }
+  p, li { color:var(--ink); }
+  .lede { color:var(--muted); font-size:1.05rem; }
+  .card { margin:1.5rem 0; padding:1rem 1.25rem; border:1px solid var(--line);
+    border-radius:12px; background:var(--card); }
+  a { color:var(--accent); }
+  .q { font-weight:600; margin-bottom:.15rem; }
+  .faq { margin:1.4rem 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Wordglow Support</h1>
+  <p class="lede">Vocabulary test prep for grades 6&ndash;12. Free, offline, and
+  private by design.</p>
+
+  <div class="card">
+    <p style="margin:0"><strong>Need help?</strong> Email
+    <a href="mailto:oldfamily@gmail.com">oldfamily@gmail.com</a> and you'll get a
+    reply from the developer directly. Please include your device model and iOS
+    version if you're reporting a problem.</p>
+  </div>
+
+  <h2>Frequently asked questions</h2>
+
+  <div class="faq">
+    <p class="q">Does Wordglow need an internet connection?</p>
+    <p>No. Every word, definition, and example sentence ships inside the app, and
+    all progress is stored on your device. Wordglow works in airplane mode and
+    makes no network requests at all.</p>
+  </div>
+
+  <div class="faq">
+    <p class="q">Do you collect any data about my child?</p>
+    <p>No &mdash; none. There are no accounts, no analytics, and no advertising.
+    See the <a href="./privacy-policy.html">privacy policy</a> for details.</p>
+  </div>
+
+  <div class="faq">
+    <p class="q">How do I get into parent mode?</p>
+    <p>Tap <em>Parent mode</em> at the bottom of the profile picker. The first
+    time, you'll create a PIN; after that the PIN is required each time. Parent
+    mode locks itself again whenever you leave it or the app goes to the
+    background.</p>
+  </div>
+
+  <div class="faq">
+    <p class="q">I forgot my parent PIN.</p>
+    <p>For your family's privacy the PIN is stored only as a scrambled
+    (hashed) value in the device keychain, so it can't be recovered or reset
+    from outside the app. Deleting and reinstalling the app clears the PIN,
+    but also erases all progress &mdash; export a backup first from
+    <em>Parent mode &rsaquo; Settings &rsaquo; Your data</em> if you can still
+    get in.</p>
+  </div>
+
+  <div class="faq">
+    <p class="q">How many new words does my kid get per day?</p>
+    <p>Five by default. You can change it per child in <em>Parent mode &rsaquo;
+    Settings &rsaquo; New words per day</em>. Raise it gradually &mdash; more new
+    words today means more reviews to do a few weeks from now. On a motivated
+    day a kid can request one extra batch of the same size.</p>
+  </div>
+
+  <div class="faq">
+    <p class="q">Why did a word come back so soon / so late?</p>
+    <p>Wordglow schedules each word with FSRS, a spaced-repetition algorithm that
+    shows a word right before it would be forgotten. Words you find hard come
+    back sooner; words you find easy stretch out further each time.</p>
+  </div>
+
+  <div class="faq">
+    <p class="q">Can I move my child's progress to a new device?</p>
+    <p>Not directly yet. Because nothing is uploaded anywhere, progress lives
+    only on the device it was made on. You can export a full backup file from
+    <em>Parent mode &rsaquo; Settings &rsaquo; Your data</em> to keep a copy for
+    safekeeping.</p>
+  </div>
+
+  <div class="faq">
+    <p class="q">How do reward deals work?</p>
+    <p>Your child proposes an effort-based deal from the Awards tab &mdash; for
+    example &ldquo;practice 7 days in a row &rarr; movie night.&rdquo; You approve,
+    adjust, or decline it in parent mode, and the app tracks the progress
+    honestly. Deals are always based on effort, never on test scores.</p>
+  </div>
+
+  <h2>Privacy</h2>
+  <p>Read the full <a href="./privacy-policy.html">Wordglow privacy policy</a>.</p>
+</main>
+</body>
+</html>
